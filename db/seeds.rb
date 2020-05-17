@@ -6,7 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-9.times do |i|
+8.times do |i|
 	code = ("%06x" % (rand * 0xffffff)).upcase
   Color.create( name: "Color #{i + 1}", hex_code: code )
 end
