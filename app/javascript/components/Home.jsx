@@ -6,17 +6,9 @@ export default () => (
     <div className="jumbotron jumbotron-fluid bg-transparent">
       <div className="container secondary-color">
         <h1 className="display-4">UI Color Picker</h1>
-        <p className="lead">
-          A curated list of colors for the best UI and UX designs.
-        </p>
+        <p className="lead"> A curated list of colors for the best UI and UX designs. </p>
         <hr className="my-4" />
-        <Link
-          to="/recipes"
-          className="btn btn-lg custom-button"
-          role="button"
-        >
-          View Colors
-        </Link>
+        <Link to="/colors" className="btn btn-lg custom-button" role="button"> View Colors </Link>
       </div>
     </div>
   </div>
