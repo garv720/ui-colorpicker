@@ -84,6 +84,6 @@ development:
 #
 production:
   <<: *default
-  database: ui_color_picker_production
-  username: ui_color_picker
-  password: <%= ENV['UI_COLOR_PICKER_DATABASE_PASSWORD'] %>
+  database: ui_color_picker_development #ui_color_picker_production
+  # username: ui_color_picker
+  # password: <%= ENV['UI_COLOR_PICKER_DATABASE_PASSWORD'] %>
